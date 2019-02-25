@@ -324,5 +324,5 @@ confusionMatrix(as.factor(predictions),valid_y)
 
 # Saving & Loading Best Model
 
-saveRDS(model, "NB.rds")
-my_model <- readRDS("NB.rds")
+saveRDS(nb, "NB.rds")
+nb <- readRDS("NB.rds")
